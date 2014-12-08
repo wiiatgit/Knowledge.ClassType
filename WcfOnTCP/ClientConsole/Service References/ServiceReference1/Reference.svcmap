@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="94adbae0-3239-4234-9a77-b7e4e9b90b06" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:8733/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="ed061ea0-dbd0-4d0c-b6a3-d74f7d452fcd" SourceId="1" SourceUrl="net.tcp://localhost:8733/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="becec940-1866-482e-a75f-8859763bb70d" SourceId="1" SourceUrl="net.tcp://localhost:8733/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="aecab188-6fae-41af-b6c2-e6476c10ac6f" SourceId="1" SourceUrl="net.tcp://localhost:8733/Service1/mex" />
+    <MetadataFile FileName="WcfService.xsd" MetadataType="Schema" ID="da7ec81c-8bd1-40da-a2e6-29f13f0b79d5" SourceId="1" SourceUrl="net.tcp://localhost:8733/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
